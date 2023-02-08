@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 0 5px 6px #a553b6a4;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+/*-----------header---------*/
+header{
+  width: 100%;
+  min-height: 100px;
+  max-width:1620px ;
+  overflow: hidden;
+  display: flex;
+  justify-content:space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20) ;
+  box-shadow: 0 5px 10px #414242a4;
+}
+a{
+  color: rgb(185, 175, 30);
+  text-decoration: none;
+
+}
+a:hover{
+  color: #edff46;
+  box-shadow: 0px 0px 50px #e6ff03;
+  
+}
+li{
+  list-style: none;
+}
+header ul{
+  display: flex;
+  padding: 0px;
+  margin: 0;
+}
+
+header ul li{
+  padding: 0 2rem;
+}
+
+header ul li a{
+  font-weight: bold;
+}
+
+header .cart{
+  position: relative;
+  cursor: pointer ;
+}
+
+header .cart {
+  width: 45px;
+  height: 45px;
+}
+
+header .cart span{
+  position: absolute;
+  top: -1rem;
+  right: -1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+ 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(20, 19, 19);
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #edff46;
+}
+
+.titulo{
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-bottom: 16px;
+  color:  #edff46;
+
+}
+
+.avatar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 60px;
+  
+}
